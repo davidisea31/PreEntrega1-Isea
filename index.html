@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa de Cambio</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="body">
+    <script src="./hoja.js"></script>
+    <h3 class="cambio">Casa de cambio</h3>
+    <form class="formulario">
+        <p>Seleccionar moneda a enviar:</p>
+        <input type="radio" name="cambio" id="uno">Dolar
+        <input type="radio" name="cambio" id="dos">Euro
+        <p>Ingrese monto:</p>
+        <input type="number" min="1" id="valor" max="100000">
+        <input type="button" id="cotizador" value="cotizar" onclick="convertir()">
+
+    </form>
+</body>
+</html>
